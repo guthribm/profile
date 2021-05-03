@@ -1,0 +1,202 @@
+
+body {
+    color: #303841;
+    margin: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Over the Rainbow', cursive; 
+    color: #303841; 
+        
+}
+
+.subtitle {
+    font-weight: normal;
+}
+
+.skills {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #303841
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ff5722;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: #00adb5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00adb5;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    
+}
+
+hr {
+    border: dotted #c9d6df 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto 100px auto;
+}
+
+.top_container {
+    background-color: #00adb5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.skill-row {
+    text-align: left;
+    margin: 75px auto 75px auto;
+    width: 50%;
+    
+}
+
+
+.profile {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #303841;
+    margin-bottom: 60px;    
+}
+
+.middle-container {        
+    font-family: 'Open Sans', sans-serif;    
+    color: #303841;
+    margin: 100px 0 100px 0;
+         
+}
+
+.bottom-container {    
+    background-color: #00adb5;
+    padding: 25px;
+}
+
+.pro {
+    text-decoration: underline;    
+}
+
+.top_cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.python_image {
+    height: 45%;
+    width: 45%;
+    float: right; 
+    margin-left: 30px;
+    
+}
+
+.web_dev {
+    height: 80%;
+    width: 80%;
+    float: left;
+    margin-right: 30px;
+}
+
+.dog_whisperer {
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+    
+}
+
+.profile_pic {
+    height: 25%;
+    width: 25%;
+    
+}
+
+.udemy_python {
+    height: 40%;
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+}
+
+.udemy_web_dev {
+    height: 40%;
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    clear: both;
+    
+}
+
+.bio {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .old_site {
+      color: #303841;
+      text-decoration: underline;
+  }
+
+  .copyright {
+      color: #c9d6df;
+      font-size: .8rem;
+      padding: 20px 0;
+  }
