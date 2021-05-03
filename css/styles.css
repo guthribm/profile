@@ -31,6 +31,7 @@ h2 {
 h3 {
     font-family: 'Open Sans', sans-serif;
     color: #ff5722;
+    margin-top: 50px;
 }
 
 a {
@@ -66,7 +67,7 @@ hr {
 .skill-row {
     text-align: left;
     margin: 75px auto 75px auto;
-    width: 50%;
+    width: 70%;
     
 }
 
@@ -76,6 +77,11 @@ hr {
     font-family: 'Open Sans', sans-serif;
     color: #303841;
     margin-bottom: 60px;    
+}
+
+.profile_footer {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .middle-container {        
@@ -107,25 +113,26 @@ hr {
 }
 
 .python_image {
-    height: 45%;
-    width: 45%;
-    float: right; 
-    margin-left: 30px;
+    
+    height: 25%;
+    width: 25%;
+    display: block; 
+    margin: 0 auto 0 auto;
     
 }
 
 .web_dev {
-    height: 80%;
-    width: 80%;
-    float: left;
-    margin-right: 30px;
+    height: 50%;
+    width: 50%;    
+    display: block; 
+    margin: 0 auto 0 auto;
 }
 
 .dog_whisperer {
-    height: 40%;
-    width: 40%;
-    float: right;
-    margin-left: 30px;
+    height: 20%;
+    width: 20%;
+    display: block; 
+    margin: 0 auto 0 auto;
     
 }
 
@@ -139,14 +146,14 @@ hr {
     height: 40%;
     width: 40%;
     float: left;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .udemy_web_dev {
     height: 40%;
     width: 40%;
     float: left;
-    margin-right: 30px;
+    margin-right: 60px;
     clear: both;
     
 }
@@ -193,10 +200,11 @@ hr {
   .old_site {
       color: #303841;
       text-decoration: underline;
+      font-size: .8rem;
   }
 
   .copyright {
       color: #c9d6df;
-      font-size: .8rem;
+      font-size: .6rem;
       padding: 20px 0;
   }
