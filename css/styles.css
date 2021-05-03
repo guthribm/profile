@@ -181,7 +181,8 @@ hr {
 
 .contact-me {
     width: 40%;
-    margin: 40px auto 60px
+    margin: 40px auto 60px;
+    font-size: 1.2rem;        
 }
 
 .btn {
