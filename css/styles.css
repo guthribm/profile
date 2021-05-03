@@ -16,6 +16,7 @@ h1 {
 
 .subtitle {
     font-weight: normal;
+    font-size: 1.5rem;
 }
 
 .skills {
@@ -23,9 +24,10 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Open Sans', sans-serif;
-    color: #303841
+    color: #303841;
+    font-weight: bold;
 }
 
 h3 {
@@ -66,11 +68,17 @@ hr {
 
 .skill-row {
     text-align: left;
-    margin: 75px auto 75px auto;
+    margin: 75px auto 0 auto;
     width: 70%;
-    
+    font-size: 1.2rem;
 }
 
+.skill-row-last {
+    text-align: left;
+    margin: 75px auto 100px auto;
+    width: 70%;
+    font-size: 1.2rem;
+}
 
 .profile {
     text-align: center;
@@ -117,8 +125,12 @@ hr {
     height: 25%;
     width: 25%;
     display: block; 
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto;   
     
+}
+
+.learn {
+    margin-top: 100px;
 }
 
 .web_dev {
@@ -134,6 +146,7 @@ hr {
     display: block; 
     margin: 0 auto 0 auto;
     
+    
 }
 
 .profile_pic {
@@ -146,14 +159,14 @@ hr {
     height: 40%;
     width: 40%;
     float: left;
-    margin-right: 60px;
+    margin: 0 60px 80px 0;
 }
 
 .udemy_web_dev {
     height: 40%;
     width: 40%;
     float: left;
-    margin-right: 60px;
+    margin: 0 60px 80px 0;
     clear: both;
     
 }
@@ -161,6 +174,7 @@ hr {
 .bio {
     width: 80%;
     margin: auto;
+    font-size: 1.2rem;
 }
 
 
