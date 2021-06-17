@@ -321,4 +321,12 @@ hr {
     .btn {
         margin-top: 2rem;
     }
+    
+    .top-container h1 {
+        font-size: 3rem;
+    }
+    
+    .top-container p {
+        padding: 1rem;
+    }
 }
