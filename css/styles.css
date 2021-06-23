@@ -235,6 +235,10 @@ hr {
         width: 100vw;
         
     }
+    
+    .top_container {
+        margin: auto;
+    }
 
     .subtitle {
         position: relative;
@@ -246,7 +250,7 @@ hr {
     }
 
     .bottom_cloud {
-        left: 225px;
+        left: 12rem;
     }
 
     .profile_pic {
