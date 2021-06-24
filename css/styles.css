@@ -81,6 +81,10 @@ hr {
     font-size: 1.2rem;
 }
 
+.top-container h1 {
+    text-shadow: 15px 7px 12px #61696e;
+}
+
 .profile {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -122,7 +126,9 @@ hr {
 }
 
 .python_image {
-    
+    border: 2px solid #d5ad42;
+    border-radius: 9px;
+    box-shadow: 10px 12px 2px #446785; 
     height: 45%;
     width: 45%;
     display: block; 
@@ -139,6 +145,9 @@ hr {
     width: 50%;    
     display: block; 
     margin: 0 auto 0 auto;
+    border: 2px solid #174f78;
+    border-radius: 9px;
+    box-shadow: 10px 12px 2px #559ac3;
 }
 
 .dog_whisperer {
@@ -147,6 +156,9 @@ hr {
     display: block;
     float: right; 
     margin: 0 100px 0 0;
+    border: 2px solid #ff5b29;
+    border-radius: 9px;
+    box-shadow: 10px 12px 2px #675748;
         
 }
 
@@ -162,6 +174,9 @@ hr {
     width: 40%;
     float: left;
     margin: 0 60px 80px 0;
+    border: 2px solid #446785;
+    border-radius: 9px;
+    box-shadow: 10px 12px 2px #00adb5;
 }
 
 .udemy_web_dev {
